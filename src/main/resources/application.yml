@@ -32,7 +32,7 @@ server:
   servlet:
     encoding:
       charset: UTF-8
-  port: 8080
+  port: 8761
 
 logging:
   config: classpath:log4j2.xml
@@ -45,4 +45,4 @@ management:
         exclude: heapdump, threaddump, restart
         include: health, refresh
   server:
-    port: 8089
+    port: 8769
